@@ -308,8 +308,8 @@ public class GameTest {
             assertEquals(false,game.threeOFAKind());
 
     }
-        @Test
-        public void twoPair(){
+    @Test
+    public void twoPair(){
             dieOne.setFaceValue(1);
             dieTwo.setFaceValue(1);
             dieThree.setFaceValue(2);
