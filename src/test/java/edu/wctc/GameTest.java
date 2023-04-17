@@ -427,8 +427,8 @@ public class GameTest {
             assertEquals(false,game.onePair());
 
     }
-        @Test
-        public void oneOfAKind(){
+    @Test
+    public void oneOfAKind(){
         //see negative test on each previous tests (duplicated below)
             dieOne.setFaceValue(1);
             dieTwo.setFaceValue(2);
