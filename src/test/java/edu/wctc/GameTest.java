@@ -133,7 +133,6 @@ public class GameTest {
         game.addToDieListCount(dieOne,dieTwo,dieThree,dieFour,dieFive);
         assertEquals(false,game.yahtzee());
     }
-
     @Test
     public void fourOFAKind(){
         dieOne.setFaceValue(1);
