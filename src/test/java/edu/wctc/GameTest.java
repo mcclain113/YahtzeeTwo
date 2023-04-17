@@ -367,6 +367,7 @@ public class GameTest {
             assertEquals(false,game.twoPair());
 
         }
+
         @Test
         public void onePair(){
             dieOne.setFaceValue(1);
