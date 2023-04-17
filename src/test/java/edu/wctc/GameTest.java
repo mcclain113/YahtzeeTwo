@@ -75,8 +75,7 @@ public class GameTest {
         sum =+ fours.size();
         sum =+ fives.size();
         assertEquals(0,sum);
-    }
-    @Test
+    }@Test
     public void yahtzee(){
         dieOne.setFaceValue(1);
         dieTwo.setFaceValue(1);
