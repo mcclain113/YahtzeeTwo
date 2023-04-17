@@ -13,6 +13,15 @@ public class Main {
         System.out.println("Die 5:" + game.getDieFive().getFaceValue());
         System.out.println(game.getResult());
 
+/*        for (int i = 1; i <= 100; i++) {
+            game.play();
+            System.out.println("Die 1:" + game.getDieOne().getFaceValue());
+            System.out.println("Die 2:" + game.getDieTwo().getFaceValue());
+            System.out.println("Die 3:" + game.getDieThree().getFaceValue());
+            System.out.println("Die 4:" + game.getDieFour().getFaceValue());
+            System.out.println("Die 5:" + game.getDieFive().getFaceValue());
+            System.out.println(game.getResult());
+        }*/
 
     }
 
