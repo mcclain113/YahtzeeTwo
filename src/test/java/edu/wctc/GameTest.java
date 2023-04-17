@@ -29,7 +29,6 @@ public class GameTest {
     public void setup() {
         game = new Game();
     }
-
     @Test
     public String testPlay() {
         game.clearLists();
