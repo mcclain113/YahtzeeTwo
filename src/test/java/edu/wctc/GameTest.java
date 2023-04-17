@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class GameTest {
     private Game game;
@@ -42,6 +43,20 @@ public class GameTest {
         game.onePair();
         //game.oneOfAKind();
         return result;
+    }
+    @Test
+    public void newRollTest(){
+        int die1 =  game.getDieOne().getFaceValue();
+        int die2 =  game.getDieTwo().getFaceValue();
+        int die3 =  game.getDieThree().getFaceValue();
+        int die4 =  game.getDieFour().getFaceValue();
+        int die5 =  game.getDieFive().getFaceValue();
+        game.newRoll();
+        assertNotEquals(die1,game.getDieOne().getFaceValue());
+        assertNotEquals(die2,game.getDieTwo().getFaceValue());
+        assertNotEquals(die3,game.getDieThree().getFaceValue());
+        assertNotEquals(die4,game.getDieFour().getFaceValue());
+        assertNotEquals(die5,game.getDieFive().getFaceValue());
     }
 
     @Test
