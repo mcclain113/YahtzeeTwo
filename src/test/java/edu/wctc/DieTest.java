@@ -10,7 +10,6 @@ public class DieTest {
     public void setup() {
         die = new Die(6);
     }
-
     @Test
     public void canRoll(){
         die.rollDie();
