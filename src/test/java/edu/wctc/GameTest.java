@@ -249,8 +249,8 @@ public class GameTest {
             game.addToDieListCount(dieOne,dieTwo,dieThree,dieFour,dieFive);
             assertEquals(false,game.fullHouse());
     }
-        @Test
-        public void threeOfAKind(){
+    @Test
+    public void threeOfAKind(){
             dieOne.setFaceValue(1);
             dieTwo.setFaceValue(1);
             dieThree.setFaceValue(1);
